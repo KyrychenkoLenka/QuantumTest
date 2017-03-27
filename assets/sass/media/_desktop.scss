@@ -1,0 +1,29 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  header {
+    .logo-wr {
+      justify-content: space-between;
+      align-items: top;
+      .navbar {
+        font-size: 11px;
+      }
+    }
+  }
+
+  main {
+    .slider {
+      .sliderContent {
+        .slide-1 {
+          .row {
+            .form {
+              text-align: center;
+              float: none;
+              margin: 90px auto 0;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+}

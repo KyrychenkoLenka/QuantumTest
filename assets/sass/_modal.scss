@@ -1,0 +1,47 @@
+
+.modal-dialog {
+    max-width: 750px;
+
+}
+.modal-content {
+    border-radius: 0;
+    border: 3px solid #51af5b;
+    text-align: center;
+    padding:5% 10%;
+    .modal-header {
+        border:none;
+        button.close {
+            background: #51af5b;
+            opacity: 1;
+            color:white;
+            font-size: 40px;
+            font-weight: normal;
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+    }
+    .modal-body {
+
+        color: #999999;
+        form {
+            max-width: 470px;
+            color: red;
+            margin: 0 auto;
+            input {
+                &:last-child {
+                    color:white;
+                    margin: 50px 0 0px;
+                }
+                &::-webkit-input-placeholder {color:#51af5b;}
+                &::-moz-placeholder          {color:#51af5b;}/* Firefox 19+ */
+                &:-moz-placeholder           {color:#51af5b;}/* Firefox 18- */
+                &:-ms-input-placeholder      {color:#51af5b;}
+            }
+        }
+    }
+
+}

@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+  header {
+    .logo-wr {
+      justify-content: space-between;
+      align-items: top;
+      nav {
+        position: absolute;
+        right:0;
+        top:0;
+        .navbar-collapse {
+          border:none;
+        }
+      }
+    }
+
+  }
+  main {
+    .slider {
+      .sliderContent {
+        .slide-1 {
+          .row {
+            .form {
+              text-align: center;
+              margin: 0 auto;
+            }
+          }
+        }
+
+      }
+    }
+    .about {
+      img:last-child {
+        display: none;
+      }
+    }
+    .profits {
+      .description {
+        a {
+          margin: 0 auto;
+          &:after {
+            position: absolute;
+            content:"";
+            height:60px;
+            width:100%;
+            background-image: url("../images/ARROW.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            top:80px;
+            left:50%;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .wrapper-1170{
+      display: block;
+      text-align: center;
+      div{
+        display: block;
+        padding: 20px 0;
+      }
+    }
+
+  }
+  .modal-content {
+    .modal-header {
+      button.close {
+        top: 0px;
+        right: 0px;
+      }
+    }
+  }
+
+}
+

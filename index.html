@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Starter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=11,chrome=1"/>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/slick.css" rel="stylesheet"/>
+    <link href="assets/css/slick-theme.css" rel="stylesheet"/>
+    <link href="assets/css/common.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <script type="text/javascript" src="assets/js/lib/reqAF.js"></script>
+</head>
+<body>
+<header>
+    <div class="colorBlocks">
+        <div class="color green"></div>
+        <div class="color yellow"></div>
+        <div class="color orange"></div>
+    </div>
+    <div class="logo-wr wrapper-1170">
+        <img src="assets/images/logo.png" alt="logo">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!—Название сайта и кнопка раскрытия меню для мобильных-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!—Само меню-->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">welcome</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">profits</a></li>
+                        <li><a href="#">what will you get?</a></li>
+                        <li><a href="#">get it free</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--<nav>-->
+        <!--<ul>-->
+        <!--<li>welcome</li>-->
+        <!--<li>about</li>-->
+        <!--<li>profits</li>-->
+        <!--<li>what will you get?</li>-->
+        <!--<li>testemonies</li>-->
+        <!--<li>get it free</li>-->
+        <!--</ul>-->
+        <!--</nav>-->
+    </div>
+</header>
+<main>
+<div class="slider">
+    <div class="sliderContent wrapper-1170">
+        <div class="slide-1 container">
+            <div class="row">
+                <div class="pic col-xs-6 col-sm-6 col-md-6 col-lg-6"><img src="assets/images/pic-slider.png"
+                                                                          alt="pic-slider"></div>
+                <div class="form col-xs-12 col-sm-8 col-md-5 col-lg-5">
+                    <form method="POST" class="forSubmit">
+                        <h1>CLAIM YOUR <br> fx PROFIT bot trader</h1>
+                        <h2>TOTTALY FREE</h2>
+                        <input type="text" name="name" placeholder="First Name:">
+                        <input type="text" name="surname" placeholder="Last Name:">
+                        <input type="email" name="email" placeholder="Email:">
+                        <input type="tel" name="phone" placeholder="Phone:">
+                        <input type="submit" placeholder="get it free" value="get it free">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about">
+    <img src="assets/images/map1.png" alt="map">
+    <div class="wrapper-1170 text-over">
+        <h3>Discover the strength of fxprofit!</h3>
+        <p>The GoldBull PRO Expert Advisor contains many market leader innovations. We have been working hard for 8
+            years, to be able to create this unique money maker trading algorithm. You can setup it easily within
+            minutes, simple to activate. Built in money managements settings, newbie and experienced traders friendly.
+            Goldbull PRO’s greatest advantage: adjust to the market continuously that’s why Goldbull PRO is still
+            profitable since 2010. You get full support and our team are always ready to help you!</p>
+        <a class="getIt" data-toggle="modal" data-target="#myModal" href="">get it free</a>
+        <p>#market leader innovations #unique money maker #easy to setup #built in settings #traders friendly #full
+            support</p>
+    </div>
+    <img src="assets/images/map2.png" alt="map">
+</div>
+<div class="profits scrollflow -slide-top -opacity">
+    <div class="container wrapper-1170">
+        <div class="row">
+            <h3>profits you can get</h3>
+            <div class="pic col-xs-12 col-sm-6 col-md-6 col-lg-6"><img src="assets/images/laptop.png" alt="laptop">
+            </div>
+            <div class="description col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <p class="gray">Goldbull Pro runs and earns profit continuously since 2010. This 100 % automated forex
+                    robot works on 3 major currency pairs, EURUSD, GBPUSD and USDJPY. Below you can see the accurate
+                    backtest results. We are really proud of its great performance! Goldbull PRO works excellent on the
+                    past few years! Trade with minimal drawdown & maximal profit! After purchasing you can convince
+                    yourself about the amazing performance!</p>
+                <h4>FXProfit: The #1 Selling Forex Robot of All Time</h4>
+                <p>With more hundreds of active traders, FXPROFIT is the most trusted and most profitable forex robot on
+                    the market.</p>
+                <p class="green">Live results, real backtests. That’s FXPROFIT, the best FX robot!</p>
+                <a class="getIt" data-toggle="modal" data-target="#myModal" href="">get robot free</a>
+            </div>
+        </div>
+        <div class="row counters scrollflow -slide-top -opacity">
+            <div class="profit col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <p>profit</p>
+                <div class="counter" id="profit"></div>
+            </div>
+            <div class="daysOfRunning col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <p>days Of Running</p>
+                <div class="counter" id="daysOfRunning"></div>
+            </div>
+            <div class="winningTrades col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <p>winning Trades</p>
+                <div class="counter" id="winningTrades"></div>
+            </div>
+            <div class="drawdown col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <p>drawdow</p>
+                <div class="counter" id="drawdowns"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="whatWillGet scrollflow -slide-top -opacity">
+    <div class="wrapper-1170 container">
+        <h3>fxprofit: What will you get?</h3>
+        <p>We are fully dedicated to our members base. When you buy Goldbull PRO, there is no need to worry about
+            installation and setting up. With over more hundreds of users and counting, you cannot go wrong with
+            Goldbull PRO. Check out what our users are saying about the software!</p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 scrollflow -slide-top -opacity">
+                <img src="assets/images/1.png" alt="pic">
+                <p>After purchasing you will receive your product with a lifetime license! There will be no additional
+                    costs!</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 scrollflow -slide-top -opacity">
+                <img src="assets/images/2.png" alt="pic">
+                <p>EXPROFIT is operating and continously making profit on 3 major currency pairs each and every day!</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 scrollflow -slide-top -opacity">
+                <img src="assets/images/3.png" alt="pic">
+                <p>After you became our member you will receive all of the future updates for free of charge! We will
+                    develop for you!</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 scrollflow -slide-top -opacity">
+                <img src="assets/images/4.png" alt="pic">
+                <p>You will receive a detailed User’s Manual with pictures to assist you during the installation!</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 scrollflow -slide-top -opacity">
+                <img src="assets/images/5.png" alt="pic">
+                <p>Full time support! We are always ready to help you! Our dedicated team will happily answer your
+                    question!</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 scrollflow -slide-top -opacity">
+                <img src="assets/images/6.png" alt="pic">
+                <p>Goldbull PRO program package contains additional features, such as MM system, balance defense and so
+                    on.</p>
+            </div>
+        </div>
+        <a class="getIt scrollflow -slide-top -opacity" data-toggle="modal" data-target="#myModal" href="">get it</a>
+    </div>
+</div>
+
+<div class="testimonies">
+    <div class="wrapper-1170 container scrollflow -slide-top -opacity">
+        <h3>This is the Best robot I have ever used!</h3>
+        <p>OW, I dont really know what else to say. This is the Best FX robot I have ever seen. I am a full time forex trader, and this robot blows me away. I wanted to thank you for all your hard work. I am really looking forward to use this software as much as I can! I think you made a good work, good opening and closing logic, nice R/R ratio. Congrats!</p>
+        <div class="commentsSlider">
+            <div class="slideElement scrollflow -slide-right">
+                <img class="icon" src="assets/images/icon.png" alt="icon">
+                <p class="comment">I bought this software and i recommend it to every one interested in forex trading! This EA makes trades
+                    every day, really easy to use and to set up! Perfect for a beginner like me! It works really well on my
+                    ECN account!</p>
+                <img class="portret" src="assets/images/portret1.png" alt="portret">
+                <p class="name">Robert Peterson</p>
+                <p class="workPosition">Adobe Manager</p>
+            </div>
+            <div class="slideElement scrollflow -slide-top">
+                <img class="icon" src="assets/images/icon.png" alt="icon">
+                <p class="comment">Amazing program and top class support, as I’m a beginner. You guys made a good product. The User’s Manual
+                    was clear, the installation was just a game for me! Clear results, nice backtest and a really good live
+                    performance! I hope I will earn even more money! :))</p>
+                <img class="portret" src="assets/images/portret2.png" alt="portret">
+                <p class="name">Sebastian</p>
+                <p class="workPosition">Seller in Germany</p>
+            </div>
+            <div class="slideElement scrollflow -slide-left">
+                <img class="icon" src="assets/images/icon.png" alt="icon">
+                <p class="comment">Let me say something. You have an amazing software!! I use it with my broker roboforex and the performance
+                    is just amazing! The EURUSD ROCKS!! Keep up the good work gentleman, waiting for the next interesting
+                    product! Good Luck!</p>
+                <img class="portret" src="assets/images/portret3.png" alt="portret">
+                <p class="name">David Hallowedd</p>
+                <p class="workPosition">England</p>
+            </div>
+            <div class="slideElement">
+                <img class="icon" src="assets/images/icon.png" alt="icon">
+                <p class="comment">I bought this software and i recommend it to every one interested in forex trading! This EA makes trades
+                    every day, really easy to use and to set up! Perfect for a beginner like me! It works really well on my
+                    ECN account!</p>
+                <img class="portret" src="assets/images/portret1.png" alt="portret">
+                <p class="name">Robert Peterson</p>
+                <p class="workPosition">Adobe Manager</p>
+            </div>
+            <div class="slideElement">
+                <img class="icon" src="assets/images/icon.png" alt="icon">
+                <p class="comment">Amazing program and top class support, as I’m a beginner. You guys made a good product. The User’s Manual
+                    was clear, the installation was just a game for me! Clear results, nice backtest and a really good live
+                    performance! I hope I will earn even more money! :))</p>
+                <img class="portret" src="assets/images/portret2.png" alt="portret">
+                <p class="name">Sebastian</p>
+                <p class="workPosition">Seller in Germany</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="formFooter">
+    <div class="wrapper-1170">
+        <h5>BECOME An owner OF THE fxPROFIT bot trader</h5>
+        <form method="POST" id="form">
+            <input type="text" name="name" placeholder="Your Name:">
+            <input type="email" name="email" placeholder="Email:">
+            <input type="tel" name="phone" placeholder="Phone:">
+            <input type="submit" placeholder="get it free" value="get it free">
+        </form>
+    </div>
+</div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!--<h4 class="modal-title" id="myModalLabel">Название модали</h4>-->
+                </div>
+                <div class="modal-body">
+                    <h3>Get your FX Profit for free</h3>
+                    <p>Please fill all information above, so you can go to the download page.
+                        Your information is secured.</p>
+                    <form method="POST" class="forSubmit">
+                        <input type="text" name="name" placeholder="First Name:">
+                        <input type="text" name="surname" placeholder="Last Name:">
+                        <input type="email" name="email" placeholder="Email:">
+                        <input type="tel" name="phone" placeholder="Phone:">
+                        <input type="submit" value="get it free" value="get it free">
+                    </form>
+                </div>
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>-->
+                    <!--<button type="button" class="btn btn-primary">Сохранить изменения</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="wrapper-1170">
+        <div class="copyright">&copy; All Rights Reserved  |  fxprofit.com</div>
+        <div class="security">
+            <img src="assets/images/footer_img1.png" alt="security">
+            <img src="assets/images/footer_img2.png" alt="security">
+            <img src="assets/images/footer_img3.png" alt="security">
+            <img src="assets/images/footer_img4.png" alt="security">
+            <img src="assets/images/footer_img5.png" alt="security">
+        </div>
+    </div>
+</footer>
+<script src="assets/js/lib/jquery-2.1.4.min.js"></script>
+<script src="assets/js/lib/bootstrap.min.js"></script>
+<script src="assets/js/lib/countUp.min.js"></script>
+<script src="assets/js/lib/slick.min.js"></script>
+<script src="assets/js/lib/eskju.jquery.scrollflow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script src="assets/js/common.js"></script>
+</body>
+</html>
